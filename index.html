@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Welcome to Kokoa Talk</title>
+    <meta name="description" content="Th is is My Website" />
+    <link
+      rel="shortcut icon"
+      href="https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Pok%C3%A9mon_Pikachu_art.png/220px-Pok%C3%A9mon_Pikachu_art.png"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+        <!--To Do: Wifi Icon-->
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>11%</span>
+        <i class="fas fa-battery-quarter"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+      <p class="welcome-header__text">If you have a Kokoa Account, log in with your email of phone number.</p>
+    </header>
+    <form action="friends.html" method="get" id="login-form">
+      <input name="username" type="text" placeholder="Email or phone number"/>
+      <input name="password" type="password" placeholder="Password"/>
+      <input type="submit" value="Log In"/>
+      <a href="#">Find Kokoa Account or Password</a>
+    </form>
+    <script src="https://kit.fontawesome.com/5e32164d40.js" crossorigin="anonymous"></script>
+  </body>
+</html>
